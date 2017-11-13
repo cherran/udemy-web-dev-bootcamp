@@ -1,0 +1,50 @@
+/*Element*/
+li {
+	/* All elements of an specific type*/
+}
+
+/*Class*/
+.hello {
+	/* All elements with class="hello" */
+}
+
+/*Id*/
+.hello {
+	/* All elements with id="name" */
+}
+
+/*Star*/
+* {
+	/* All elements on the HTML document */
+}
+
+/*Descendant Selector*/
+
+li a {
+	/* Take two or more selectors, chain them together */
+	/* All <a> elements inside <li> elements */
+}
+
+/*Adjacent Selector*/
+h4 + ul {
+	/* Elements that come after another element (on the same level, not nested) */
+	/* All allements that come after a h4 element*/
+}
+
+
+Attribute Selector
+input[type="text"] {
+	/* Based on any attribute */
+	/* All <input> elements of the type "text" */
+}
+
+/*Nth of the type*/
+ul:nth-of-type(3) {
+	/* The third <ul> element */
+}
+
+ul:nth-of-type(even) {
+	/* The even <ul> elements */
+}
+
+
