@@ -9,7 +9,7 @@ li {
 }
 
 /*Id*/
-.hello {
+#name {
 	/* All elements with id="name" */
 }
 
@@ -32,7 +32,7 @@ h4 + ul {
 }
 
 
-Attribute Selector
+/*Attribute Selector*/
 input[type="text"] {
 	/* Based on any attribute */
 	/* All <input> elements of the type "text" */
